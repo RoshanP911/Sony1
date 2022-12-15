@@ -1,0 +1,544 @@
+body{
+    margin: 0;  
+    padding: 0;
+  }
+  
+  .header{
+    background: rgb(0, 0, 0);
+    /* width:100%; */
+    height: 64px;
+    padding-left: 20px;
+  }
+  
+  
+  .GlobalHeader_Logo img {
+    max-width: 6rem;
+    padding-left: 0px;
+    vertical-align: middle;
+    } 
+  
+    .navbar{
+      display: flex;
+      justify-content: flex-end;
+      background-color: rgb(0, 0, 0);
+      width: 100%;
+      margin-top: -44px;
+    }
+
+    .user{
+      width: 56px;
+      height: 50px;
+      padding-right: 30px;
+    }
+
+
+    .heart{
+      width: 56px;
+      height: 50px;
+      padding-right: 20px;
+    }
+
+
+    .search{
+      width: 56px;
+      height: 50px;
+      padding-right: 20px;
+    }
+
+    .bars{
+      width: 56px;
+      height: 50px;
+      padding-right: 70px;
+    }
+  
+  
+  .bigtv img{
+    width: 100%;
+    height: 500px;
+  }
+
+  .blackbox{
+    height: 369px;
+    width: 450px;
+    margin-top: 0px;
+    margin-left: 107px;
+    background-color: black;
+    opacity: 0.8;
+    position: relative;
+    top: -435px;
+  }
+  
+  
+  .body1{
+    height: 500px;
+  }
+  
+  .Seriestext{
+    color: white;
+    padding-left: 20px;
+  }
+
+  .OLEDtext{
+    color: white;
+    font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.375rem;
+    line-height: 1.15789;
+    letter-spacing: -.04rem;
+    text-rendering: optimizeLegibility;
+    padding-left: 20px;
+  }
+
+  .bluebutton{
+    background-color:#2d75c7;
+    color: white;
+    height: 40px;
+    position: relative;
+    bottom: 192px;
+    margin-left: 122px;
+    bottom: 550px;
+  }
+
+
+    .GlobalHeader_Logo{
+      padding: 9px;
+      margin:0;
+    }
+    
+  
+  .Bravia_Logo{
+    height: 60px;
+    width: 250px;
+    position: relative;
+    top: -545px;
+    padding-left: 118px;
+  }
+   
+  
+   .body2{
+    display: flex; 
+    justify-content: space-around; 
+  }  
+  
+  .Bravia_chip{
+    height:430px;
+    width:380px;
+    padding-left: 30px;
+    margin: 0 15px;
+  }
+
+  .threephotostext{
+    display: flex;
+  }
+
+  .Braviachiptext{
+    color: rgb(255, 255, 255);
+    top: -130px;
+    left: 60px;
+    position: relative;
+    font-size: 20px;
+    font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+  }
+  .Alphatext{
+    color: #000000;
+    top: -100px;
+    left: 220px;
+    position: relative;
+    font-size: 20px;
+    font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+  }
+  .headings{
+    margin-left:45px;
+  }
+
+  .Headphonemantext{
+    color: #ffffff;
+    top: -100px;
+    left: 400px;
+    position: relative;
+    font-size: 20px;
+    font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+  }
+
+  .Alpha{
+    height:430px;
+    width:380px;
+    margin: 0 15px;
+  }
+
+  .Headphoneman{
+    height:430px;
+    width:380px;
+    margin: 0 10px;
+  }
+
+  .ThreeButtons{
+    display: flex;
+  }
+
+  .BestOfSony{
+    margin-left: 70px;
+    border-radius: 25px;
+    border: 1px solid #6b6b7b;
+    padding: 20px;
+    width: 230px;
+    padding-left: 4px;
+    padding-top: 11px;
+    height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.7);
+  }
+
+
+  .Lifestyle{
+    border-radius: 25px;
+    border: 1px solid #6b6b7b;
+    padding: 20px;
+    width: 230px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 11px;
+    height: 45px;
+    color: #6b6b7b;;
+    background: white
+  }
+
+  .Comfort{
+    border-radius: 25px;
+    border: 1px solid #6b6b7b;
+    padding: 20px;
+    width: 230px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 11px;
+    height: 45px;
+    color: #6b6b7b;
+    background: white
+  }
+
+
+  .body3{
+    display: flex;
+    justify-content: space-around; 
+  }
+
+  .left{
+    width: 600px; 
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .right{
+    width: 600px;
+    height: 540px;
+  
+  }
+
+  .topleft{
+    background-color: #a46900;
+    color: #fff;
+    height: 185px;
+    width: 585px;
+    padding-left: 15px;
+  }
+
+  .BestofSonytext{
+    font-size: 30px;
+    font-family: SST W01 Medium,sans-serif;
+  }
+
+  .bottomleft{
+    height: 440px;
+    width: 600px; 
+    display: flex;   
+    justify-content: space-between;  
+    flex-wrap: wrap;
+    column-gap: 25px;
+  }
+
+  .whheadphone {
+    height: 200px;
+    width: 175px;
+}
+
+.whheadphonebox{
+color:#2f353d;
+line-height: 1.5;
+font-family:SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+font-size:0.75rem;
+width:175px;
+}
+
+.hometheatreprice{
+  color:#2f353d;
+  line-height: 1.5;
+  font-family:SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+  font-size: 0.75rem;
+  width:175px;
+}
+
+.alphaoneprice{
+  color:#2f353d;
+  line-height: 1.5;
+  font-family:SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+  font-size:0.75rem;
+  width:175px;
+}
+
+.braviaprice{
+  color:#2f353d;
+  line-height: 1.5;
+  font-family:SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+  font-size:0.75rem;
+}
+
+
+  .hometheatre {
+    height: 200px;
+    width: 175px;
+}
+  .alphaone {
+    height: 200px;
+    width: 175px;
+ }
+
+ .braviaimage{
+  width: 600px;
+  height: 400px;
+ }
+
+.body4{
+  display: flex;
+  justify-content: space-around;
+}
+ .covid{
+  height: 200px;
+  width: 600px;
+  background-color: #f2f5f9;
+  margin: 0 5px;
+ }
+
+ .servicelink{
+  text-decoration: none; 
+  color:black;
+  font-family:SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+  position: relative;
+    top: -95px;
+    padding-left: 65px;
+
+ }
+
+ .alphacommunity{
+  height: 200px;
+  width: 600px;
+  background-color: #f2f5f9;
+  margin: 0 5px;
+ }
+
+ .covidimage{
+  height: 200px;
+  width: 200px;
+ }
+
+
+ .alphacommunityimage{
+  height: 200px;
+  width: 200px;
+ }
+
+ .alphacommunitylink{
+  text-decoration: none; 
+  color:black;
+  font-family:SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+  position: relative;
+    top: -95px;
+    padding-left: 35px;
+ }
+
+
+ .body5{
+  background-color: #f2f5f9;
+  height: 250px;
+  width: 97%;
+  padding-left: 30px;
+  font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #6b6b7b;
+  letter-spacing: 0.1em;
+ }
+
+
+footer{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 500px;
+}
+
+.footertop{
+  display: flex;
+  justify-content: space-around;
+}
+
+.FindaStore{
+    height:150px;
+    width: 250px;
+    background-color:rgb(0, 0, 0);
+    color: #ffffff;
+    padding-left: 15px;
+    line-height: 1.6;
+    font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+}
+
+.footertopheadings{
+  color: #878792;
+  line-height: 1.18182;
+  font-size: 12px;
+  font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+}
+
+
+.Supportheading{
+  color: #878792;
+  line-height: 1.18182;
+  font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+}
+
+.ContactUsheading{
+  color: #878792;
+  line-height: 1.18182;
+  font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+}
+.ContactUs{
+  color: #878792;
+  line-height: 1.18182;
+  font-size: 14px;
+  line-height: 2.2;
+  font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+}
+.Support{
+  height:150px;
+    width:200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 -10px;
+    color: #e4e7eb;
+    padding-left: 15px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 2.2;
+    font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Inthenews{
+  height:150px;
+  width:200px;
+  background-color: rgb(0, 0, 0);
+  font-size: 14px;
+  line-height: 2.2;
+  color: #e4e7eb;
+  padding-left: 15px;
+  
+  font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+}
+
+.ContactUs{
+  height:150px;
+  width:200px;
+  background-color: rgb(0, 0, 0);
+  color: #e4e7eb;
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 2.2;
+  font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+}
+
+.footerbottominline{
+  list-style-type: none;
+  text-align:center;
+  margin: 0;
+  padding: 0;
+  color: #e4e7eb;
+  font-size: 12px;
+}
+
+.footerbottominline li{
+  display: inline-block;
+  padding: 20px;
+}
+
+.Indiabutton{
+margin-left: 100px;
+background-color: #3c3c42;
+color: #ffffff;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width:10px;
+  display: inline-block;
+  text-align:end;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: #878792;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.socialmedia{
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: 860px; 
+}
+
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid grey;
+  float: left;
+  width: 30%;
+  background: transparent;
+    color: #fff;
+}
+
+
+form.example button {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+}
+
+
+.tandc{
+  color:#e4e7eb;
+  font-size: 12px;
+  padding-left: 50px;
+  background-color: transparent;
+  font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+}
+
+.copy{
+  color: #878792;
+  font-size: 10px;
+  padding-left: 50px;
+}
